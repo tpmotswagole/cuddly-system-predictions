@@ -1,14 +1,12 @@
 "scripts": {
-     "start": "node index.js"
-     "dev": "react-scripts start",
-     "start": "serve -s build",
-     "build": "react-scripts build",
-     "test": "react-scripts test --env=jsdom",
-     "eject": "react-scripts eject",
-     "heroku-postbuild": "npm run build",
-     "versio": "1.0.0",
+   "start": "node index.js"
+}
 
-"engines": {
+{
+ "name": "myapp",
+ "description": "company attrition",
+ "version": "1.0.0",
+ "engines": {
    "node": "12.11.1"
    }
 }
